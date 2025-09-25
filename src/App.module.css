@@ -1,0 +1,13 @@
+.loading {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.noArticles {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.1rem;
+  color: #888;
+}

@@ -1,0 +1,29 @@
+.footer {
+  text-align: center;
+  padding: 1.5rem 2rem;
+  background-color: var(--header-bg, #f8f8f8);
+  color: #555;
+  font-size: 0.9rem;
+  border-top: 1px solid #ddd;
+}
+
+.footer a {
+  color: #0077ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #005ccc;
+}
+
+.footer p {
+  margin: 0.3rem 0;
+}
+
+@media (max-width: 480px) {
+  .footer {
+    font-size: 0.8rem;
+    padding: 0.8rem;
+  }
+}
