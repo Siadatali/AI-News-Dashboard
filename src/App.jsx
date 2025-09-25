@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 import { Routes, Route, useParams } from "react-router-dom";
 import Header from "./components/Header.jsx";
-import NewsGrid from "./components/newsGridd.jsx";
+import NewsGrid from "./components/newsgrid.jsx";
 import Footer from "./components/footer.jsx";
 import styles from "./App.module.css";
 
 // 🔹 Component for search-based news (home + search results)
 function SearchPage({ query: propQuery }) {
   const { query: paramQuery } = useParams(); // from URL
-  const query = paramQuery || propQuery; // use URL param if available, else fallback to prop
+  const query = paramQuery || propQuery;
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(false);
 
